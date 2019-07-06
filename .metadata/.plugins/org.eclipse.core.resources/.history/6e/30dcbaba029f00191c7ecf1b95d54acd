@@ -1,0 +1,26 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		System.out.println("你好");
+		Scanner in = new Scanner(System.in);
+		// System.out.println("echo:"+in.nextLine());
+		// System.out.println(2+3+"=2+3="+(2+3));
+		// System.out.println("100-"+in.nextInt()+"="+(100-in.nextInt()));
+		// final int amount = 100;
+		int amount = 100;
+		int prise = 0;
+		// amount=50;
+		// System.out.println(prise);
+		// int prise;
+		System.out.print("请输入票面：");
+		amount = in.nextInt();
+		System.out.print("请输入金额：");
+		prise = in.nextInt();
+		System.out.println(amount + "-" + prise + "=" + (amount - prise));
+	}
+
+}
