@@ -6,7 +6,7 @@ public class Decide {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		³õÊ¼»¯
+//		åˆå§‹åŒ–
 		Scanner in = new Scanner(System.in);
 
 		System.out.println(5 == 5.0);
@@ -16,34 +16,34 @@ public class Decide {
 		System.out.println("a=" + a + ";b=" + b);
 		System.out.println(Math.abs(a - b) < 1e-6);
 
-//		ÇëÊäÈëÍ¶±Ò½ğ¶î
+//		è¯·è¾“å…¥æŠ•å¸é‡‘é¢
 
-		System.out.print("ÇëÍ¶±Ò£º");
+		System.out.print("è¯·æŠ•å¸ï¼š");
 		int amount = in.nextInt();
 		System.out.println(amount);
 		System.out.println(amount >= 10);
 		if (amount >= 10) {
-			// ´òÓ¡³µÆ±
-			System.out.println("*Java³Ç¼ÊÌúÂ·×¨Ïß*");
-			System.out.println("Æ±¼Û£º10Ôª");
-			// ¼ÆËã²¢´òÓ¡ÕÒÁã
-			System.out.println("ÕÒÁã£º" + (amount - 10));
+			// æ‰“å°è½¦ç¥¨
+			System.out.println("*JavaåŸé™…é“è·¯ä¸“çº¿*");
+			System.out.println("ç¥¨ä»·ï¼š10å…ƒ");
+			// è®¡ç®—å¹¶æ‰“å°æ‰¾é›¶
+			System.out.println("æ‰¾é›¶ï¼š" + (amount - 10));
 		}
 
-//		·ÖÖ§ switch case
+//		åˆ†æ”¯ switch case
 		int type = in.nextInt();
 		switch (type) {
 		case 1:
 		case 2:
-			System.out.println("ÄãºÃ");
+			System.out.println("ä½ å¥½");
 			break;
 		case 3:
-			System.out.println("ÍíÉÏºÃ");
+			System.out.println("æ™šä¸Šå¥½");
 		case 4:
-			System.out.println("ÔÙ¼û");
+			System.out.println("å†è§");
 			break;
 		default:
-			System.out.println("°¡£¬Ê²Ã´°¡£¿");
+			System.out.println("å•Šï¼Œä»€ä¹ˆå•Šï¼Ÿ");
 			break;
 		}
 

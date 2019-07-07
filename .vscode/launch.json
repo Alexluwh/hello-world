@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Decide",
+            "request": "launch",
+            "mainClass": "decide.Decide",
+            "projectName": "decide"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "hello.Hello",
+            "projectName": "hello"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Loop",
             "request": "launch",
             "mainClass": "circulate.Loop",

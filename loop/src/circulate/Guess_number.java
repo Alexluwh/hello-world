@@ -15,12 +15,12 @@ public class Guess_number {
 			a=in.nextInt();
 			count=count+1;
 			if (a>number) {
-				System.out.println("Æ«´ó");
+				System.out.println("åå¤§");
 			} else {
-				System.out.println("Æ«Ğ¡");
+				System.out.println("åå°");
 			}
 		} while (a!=number);
-		System.out.println("¹§Ï²Äã²Â¶ÔÁË£¬Äã²ÂÁË"+count+"´Î");
+		System.out.println("æ­å–œä½ çŒœå¯¹äº†ï¼Œä½ çŒœäº†"+count+"æ¬¡");
 	}
 
 }

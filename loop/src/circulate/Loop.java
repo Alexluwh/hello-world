@@ -6,23 +6,23 @@ public class Loop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// ³õÊ¼»¯
+		// åˆå§‹åŒ–
 		int balance = 0;
 		Scanner in = new Scanner(System.in);
 		while (true) {
-			// ÇëÊäÈëÍ¶±Ò½ğ¶î
+			// è¯·è¾“å…¥æŠ•å¸é‡‘é¢
 
-			System.out.print("ÇëÍ¶±Ò£º");
+			System.out.print("è¯·æŠ•å¸ï¼š");
 			int amount = in.nextInt();
 			balance = balance + amount;
 			System.out.println(amount);
 			System.out.println(amount >= 10);
 			if (balance >= 10) {
-				// ´òÓ¡³µÆ±
-				System.out.println("*Java³Ç¼ÊÌúÂ·×¨Ïß*");
-				System.out.println("Æ±¼Û£º10Ôª");
-				// ¼ÆËã²¢´òÓ¡ÕÒÁã
-				System.out.println("ÕÒÁã£º" + (balance - 10));
+				// æ‰“å°è½¦ç¥¨
+				System.out.println("*JavaåŸé™…é“è·¯ä¸“çº¿*");
+				System.out.println("ç¥¨ä»·ï¼š10å…ƒ");
+				// è®¡ç®—å¹¶æ‰“å°æ‰¾é›¶
+				System.out.println("æ‰¾é›¶ï¼š" + (balance - 10));
 				balance = 0;
 			}
 		}
