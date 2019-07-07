@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Integer_decomposition",
+            "request": "launch",
+            "mainClass": "circulate.Integer_decomposition",
+            "projectName": "loop"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Decide",
             "request": "launch",
             "mainClass": "decide.Decide",
