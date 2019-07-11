@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NewArray",
+            "request": "launch",
+            "mainClass": "array.NewArray",
+            "projectName": "array"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayTraversalPrimes",
+            "request": "launch",
+            "mainClass": "array.ArrayTraversalPrimes",
+            "projectName": "array"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - For_loop",
+            "request": "launch",
+            "mainClass": "circulate.For_loop",
+            "projectName": "loop"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Integer_decomposition",
             "request": "launch",
             "mainClass": "circulate.Integer_decomposition",
